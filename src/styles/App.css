@@ -59,7 +59,7 @@ display: flex;
 }
 
 #add-image{
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     height: 2.5rem;
     border-radius: 0.2rem;
