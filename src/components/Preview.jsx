@@ -10,6 +10,8 @@ function Preview(props) {
                 {/* <img id='img-preview' src="https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=2000" alt="profile"  /> */}
                 <h2 id="name">{props.formdata.fullname}</h2>
                 <div className="lighter-text">{props.formdata.headline}</div>
+                <br />
+                
             </div>
             <hr />
 
@@ -19,12 +21,13 @@ function Preview(props) {
                 <div className="light-text">{props.formdata.website}</div>
             </div>
             <hr />
-           
+            <br />
 
             <div className='add-container'>
                 <div className="light-text">{props.formdata.address}, {props.formdata.city}, {props.formdata.region}, {props.formdata.country}, {props.formdata.postalcode}</div>
                 <div className="light-text">{props.formdata.linkedin}</div>
             </div>
+            <br />
             <hr />
             <div className="light-text" id="summ-container">
                 <div>{props.formdata.summary}</div>
