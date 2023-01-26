@@ -28,7 +28,7 @@ function Form(props) {
                               <h1>Basics</h1>
                         </Grid>
                         <Grid item lg={1} md={2}>
-                            <img id="img" src={props.formdata.addimage} alt="Upload Your Image"  />
+                            <img id="img" src={props.formdata.addimage}  />
                         </Grid>
                         <Grid item lg={10} md={12} sm={12} xs={12}  id="abc">
                              <TextField  type="text" id="fullname" name="fullname" onChange={(e)=>handleInput(e.target.name, e.target.value)} className='inputs' width="100%" label="Full Name" variant="outlined"    />
@@ -60,7 +60,7 @@ function Form(props) {
                              <TextField  type="text" id="address" name="address" onChange={(e)=>handleInput(e.target.name, e.target.value)} className='input' label="Address" variant="outlined"    />
                         </Grid>
                         <Grid item  lg={12} md={12} sm={12} xs={12} >
-                             <TextField  type="url" id="linkedIn" name="linkedin" onChange={(e)=>handleInput(e.target.name, e.target.value)} className='input' label="linkedIn" variant="outlined"    />
+                             <TextField  type="url" id="linkedIn" name="linkedin" onChange={(e)=>handleInput(e.target.name, e.target.value)} className='input' label="Address-Url" variant="outlined"    />
                         </Grid>
                         <Grid item lg={6} md={12} sm={12} xs={12} >
                              <TextField  type="text" id="city" name="city" onChange={(e)=>handleInput(e.target.name, e.target.value)} className='small-input' label="City" variant="outlined"    />

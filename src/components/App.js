@@ -52,7 +52,7 @@ const App = () => {
       const submitForm =(e)=>{
         e.preventDefault();
         setShow(true)
-        setButtondata(!buttondata) 
+        setButtondata(false) 
         createPDF();        
     }
 
