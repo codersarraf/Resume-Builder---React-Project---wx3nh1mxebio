@@ -1,13 +1,12 @@
 import React from 'react'
 
 function Preview(props) {
-    // console.log(props.formdata);
 
   return (
     <div className='previewContainer'>
         <div id="preview-comp">
             <div className='name-container'>
-                {/* <img id='img-preview' src="https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=2000" alt="profile"  /> */}
+                <img id='img-preview' src={props.formdata.addimage} alt="Upload Your Image"  />
                 <h2 id="name">{props.formdata.fullname}</h2>
                 <div className="lighter-text">{props.formdata.headline}</div>
                 <br />
@@ -35,7 +34,7 @@ function Preview(props) {
             <hr/>
             <div className='exp-container'>
                 <div  id='exp-heading'>Work Experience</div>
-                <hr />
+                
                 <div className="bold-text" >{props.formdata.companyname}</div>
                 <div className="light-text">{props.formdata.designation}</div>
                 <div className="lighter-text">{props.formdata.jobstartdate} - {props.formdata.jobenddate}</div>
@@ -48,7 +47,7 @@ function Preview(props) {
             <div className='edu-container'>
                 
                 <div id='edu-heading'>Education</div>
-                <hr />
+                
                 <div className="bold-text">{props.formdata.collegename}</div>
                 <div className="light-text">{props.formdata.stream}</div>
                 <div className="light-text">{props.formdata.grade}</div>
@@ -57,12 +56,12 @@ function Preview(props) {
             <hr />
 
             <div className='skills-container'>
-            <div className="bold-text" id='skills-heading'>Skills</div>
-                 <hr />
+            <div  id='skills-heading'>Skills</div>
+               
                 <div id="list">
                         {
                             
-                        props.formdata.skills.split(",").map(e =><div id='list-items'>{e}</div>)
+                        props.formdata.skills.split(",").map(e =><div className="light-text" id='list-items'>{e}</div>)
                         
                         }
                        

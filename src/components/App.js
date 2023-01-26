@@ -12,7 +12,7 @@ const App = () => {
     fullname :"",
     email:"",
     phonenumber:"",
-    addimage:"No Image Selected",
+    addimage: "",
     website:"",
     headline:"",
     summary:"",
@@ -37,16 +37,10 @@ const App = () => {
     });
     const [show, setShow] = useState(false); 
     const [buttondata, setButtondata] = useState(true); 
-    
-    // useEffect(()=>{
-    //   localStorage.setItem("dataKey", JSON.stringify(formdata))
-    // })  
-
-    // let str = localStorage.getItem("dataKey");
-    // console.log(str)
   
     
     console.log(formdata);
+    
     const handleInput = (name, value)=>{
       // const name = e.target.name;
       // const value = e.target.value;
@@ -69,14 +63,11 @@ const App = () => {
         pdf.save("resume.pdf");
       });
     };
-    
-    
-
-
+     
 
   return (
     <div id="main">
-      <Form handler={handleInput} submit={submitForm} buttondata={buttondata} />
+      <Form handler={handleInput} submit={submitForm} formdata={formdata} buttondata={buttondata} />
       {show && <Preview formdata={formdata}/>}
     </div> 
     
