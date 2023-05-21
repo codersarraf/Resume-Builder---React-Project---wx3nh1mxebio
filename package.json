@@ -23,6 +23,8 @@
     "jspdf": "^2.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^6.11.2",
+    "react-type-animation": "^3.0.1",
     "styled-components": "^5.3.6"
   },
   "jest": {

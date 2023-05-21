@@ -1,74 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../styles/App.css';
+import Navbar from './Navbar';
+import Homepage from './pages/Homepage';
+import Routing from './Routing';
+import ResumeBuilder from './pages/ResumeBuilder';
 
-import Preview from './Preview';
-import Form from './Form'
-import { createContext,Provider } from 'react';
-import { useState} from 'react';
-import jsPDF from 'jspdf';
 
 const App = () => {
-  const [formdata, setFormdata] = useState({
-    fullname :"",
-    email:"",
-    phonenumber:"",
-    addimage: "",
-    website:"",
-    headline:"",
-    summary:"",
-    address:"",
-    city:"",
-    linkedin:"",
-    region:"",
-    country:"",
-    postalcode:"",
-    collegename:"",
-    stream:"",
-    grade:"",
-    startdate:"",
-    enddate:"",
-    companyname:"",
-    designation:"",
-    projectlink:"",
-    jobstartdate:"",
-    jobenddate:"",
-    description:"",
-    skills:"",
-    });
-    const [show, setShow] = useState(false); 
-    const [buttondata, setButtondata] = useState(true); 
+  const [show, setShow] = useState(false);
   
-    
-    console.log(formdata);
-    
-    const handleInput = (name, value)=>{
-      // const name = e.target.name;
-      // const value = e.target.value;
-      setFormdata ((prev)=>{ 
-          return {...prev, [name]:value}
-
-      })
-    }  
-      const submitForm =(e)=>{
-        e.preventDefault();
-        setShow(true)
-        setButtondata(false) 
-        createPDF();        
-    }
-
-    const createPDF = () => {
-      const pdf = new jsPDF("portrait","px","a4");
-      let data =window.document.querySelector("#preview-comp");
-      pdf.html(data).then(() => {
-        pdf.save("resume.pdf");
-      });
-    };
-     
-
   return (
     <div id="main">
-      <Form handler={handleInput} submit={submitForm} formdata={formdata} buttondata={buttondata} />
-      {show && <Preview formdata={formdata}/>}
+      <Routing />
+      {show ? <ResumeBuilder/> : <Homepage setShow={setShow}/>}
     </div> 
     
   )

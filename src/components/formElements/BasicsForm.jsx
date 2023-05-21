@@ -14,26 +14,26 @@ function BasicsForm() {
             <div className='containerName'>
             <img src="https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=2000" alt="profile"  />
             <div>
-                <TextField id="fullname" className='input' label="Full Name" variant="outlined" />
+                <TextField id="fullname" className='input' label="Full Name" variant="outlined"  />
                 <div><Icon color="primary">add_circle</Icon><span>Add Image</span></div>
             </div>
 
             </div>
                 
             <div>
-                <TextField id="outlined-basic" className='input' label="Email Address" variant="outlined" />
+                <TextField id="outlined-basic" className='input' label="Email Address" variant="outlined"  />
             </div>
             
             <div>
-                <TextField id="phoneNumber" className='input' label="Phone Number" variant="outlined" />
-                <TextField id="website" className='input' label="Website" variant="outlined" />
+                <TextField id="phoneNumber" className='input' label="Phone Number" variant="outlined"  />
+                <TextField id="website" className='input' label="Website" variant="outlined"  />
             </div>
             
             <div>
-                <TextField id="headline" className='input' label="Headline" variant="outlined" />
+                <TextField id="headline" className='input' label="Headline" variant="outlined"  />
             </div>
             <div>
-                <TextField id="summary" className='input' label="Summary" variant="outlined" />
+                <TextField id="summary" className='input' label="Summary" variant="outlined"  />
             </div> */}
             
            
@@ -49,16 +49,16 @@ function BasicsForm() {
                     <Button id='add-image'><Icon color="primary">add_circle</Icon><span>Add Image</span></Button>
                 </Grid>
                 <Grid item lg={12}md={12} sm={12} xs={12} >
-                    <TextField id="email" className='input' label="Email Address" variant="outlined" />
+                    <TextField id="email" className='input' label="Email Address" variant="outlined"  />
                 </Grid>
                 <Grid item lg={6} md={12} sm={12} xs={12}  >
-                    <TextField id="phoneNumber" className="small-input" label="Phone Number" variant="outlined" />
+                    <TextField id="phoneNumber" className="small-input" label="Phone Number" variant="outlined"  />
                 </Grid>
                 <Grid item lg={6} md={12} sm={12} xs={12}  >
-                    <TextField id="website" className="small-input" label="Website" variant="outlined" />
+                    <TextField id="website" className="small-input" label="Website" variant="outlined"  />
                 </Grid>
                 <Grid item lg={12} md={12} sm={12} xs={12}  >
-                    <TextField id="headline" className='input' label="Headline" variant="outlined" />
+                    <TextField id="headline" className='input' label="Headline" variant="outlined"  />
                 </Grid>
 
 
@@ -66,19 +66,19 @@ function BasicsForm() {
                     <h1>Location</h1>
                 </Grid>
                 <Grid item  lg={12} md={12} sm={12} xs={12} >
-                    <TextField id="address" className='input' label="Address" variant="outlined" />
+                    <TextField id="address" className='input' label="Address" variant="outlined"  />
                 </Grid>
                 <Grid item lg={6} md={12} sm={12} xs={12} >
-                    <TextField id="city" className='small-input' label="City" variant="outlined" />
+                    <TextField id="city" className='small-input' label="City" variant="outlined"  />
                 </Grid>
                 <Grid item lg={6} md={12} sm={12} xs={12} >
-                    <TextField id="reagion" className='small-input' label="Reagion" variant="outlined" />
+                    <TextField id="reagion" className='small-input' label="Reagion" variant="outlined"  />
                 </Grid>
                 <Grid item lg={6} md={12} sm={12} xs={12} >
-                    <TextField id="country" className='small-input' label="Country" variant="outlined" />
+                    <TextField id="country" className='small-input' label="Country" variant="outlined"  />
                 </Grid>
                 <Grid item lg={6} md={12} sm={12} xs={12} >
-                <TextField id="postalCode" className='small-input'  label="Postal Code" variant="outlined" />
+                <TextField id="postalCode" className='small-input'  label="Postal Code" variant="outlined"  />
                 </Grid>
             </Grid>
     </div>

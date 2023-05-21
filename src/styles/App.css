@@ -9,10 +9,102 @@ body{
     height: 100vh;
     overflow-x: hidden;
     align-content: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:monospace;
     /* background-color: #dfdaed → #faaca8; */
    
 }
+
+
+/* navbar */
+#navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(133, 2, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.nav-text{
+    margin-right: 2rem;
+    color: #fff;
+    font-size:1.3rem;
+    /* text-decoration: none; */
+}
+
+/* homepage */
+
+#home{
+    background-color: #fff;
+    width: 100vw;
+    height: 90vh;  
+}
+
+#home-cont{
+    width: 67vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5.8rem;
+    padding-top: 3rem;
+    /* text-align: center; */
+    align-items: center;
+}
+
+#image-cont{
+    width: 33vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.img-job{
+    width: auto;
+    height:42vh;
+    margin-left: 4rem;
+}
+
+#img-gotajob{
+    margin-left: 15rem;
+}
+
+#home-para{
+    font-size:x-large;
+    font-weight: lighter;
+    margin-bottom: 2rem;   
+}
+
+#home-head{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+#icon-study{
+    width: 20rem;
+    height: auto;
+}
+
+#homeGrid{
+    display: flex;
+    flex-direction: row;
+}
+
+#home-btn{
+    width: 20rem;
+    height: 4rem;
+    background-color: blue;
+    color: white;
+    border-radius:1rem;
+    font-weight: 700;
+    font-size:large;
+}
+
+
+
+
 
 /* 
 #form,#locationForm{
@@ -172,8 +264,14 @@ span{
     
 }
 
+.exp,.edu{
+    display: flex;
+    gap: 1rem;
+}
+
 #exp-heading,#edu-heading,#skills-heading{
-   
+    display: flex;
+    justify-content: flex-start;
     font-weight:900;
     font-size:small;
     color: white ;

@@ -34,10 +34,11 @@ function Preview(props) {
             <hr/>
             <div className='exp-container'>
                 <div  id='exp-heading'>Work Experience</div>
-                
-                <div className="bold-text" >{props.formdata.companyname}</div>
+            <div className="exp">
+            <div className="bold-text" >{props.formdata.companyname}</div>
                 <div className="light-text">{props.formdata.designation}</div>
-                <div className="lighter-text">{props.formdata.jobstartdate} - {props.formdata.jobenddate}</div>
+                <div className="lighter-text">{props.formdata.jobenddate}</div>
+            </div>
                 <div className="light-text" id='work-desc'>
                     {props.formdata.description}
                 </div>
@@ -47,11 +48,13 @@ function Preview(props) {
             <div className='edu-container'>
                 
                 <div id='edu-heading'>Education</div>
-                
-                <div className="bold-text">{props.formdata.collegename}</div>
+            <div className="edu">
+            <div className="bold-text">{props.formdata.collegename}</div>
                 <div className="light-text">{props.formdata.stream}</div>
                 <div className="light-text">{props.formdata.grade}</div>
-                <div className="lighter-text">{props.formdata.startdate} - {props.formdata.enddate}</div>
+                <div className="lighter-text">{props.formdata.enddate}</div>
+            </div>
+                
             </div>
             <hr />
 
