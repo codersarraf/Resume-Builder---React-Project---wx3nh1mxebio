@@ -346,4 +346,12 @@ span{
     #homeGrid {
         flex-direction: column;
     }
+    #home-cont{
+        width: 100vw;
+        height: auto;
+    }
+    #image-cont{
+        width: 100vw;
+        height: auto;
+    }
   }
