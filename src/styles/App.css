@@ -340,3 +340,10 @@ span{
     font-weight:500;
     font-size:x-small;;
 }
+
+
+@media screen and (min-width: 480px) {
+    #homeGrid {
+        flex-direction: column;
+    }
+  }
