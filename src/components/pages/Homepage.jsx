@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import study from '../images/study.png' 
 import jobSearch from '../images/jobSearch.png'  
-import gotAJob from '../images/gotAJob.png' 
+import gotAjob from '../images/gotAjob.png' 
 import TypingEffect from '../TypingEffect';
 import ResumeBuilder from './ResumeBuilder';
 function Homepage({setShow}) {
@@ -24,7 +24,7 @@ function Homepage({setShow}) {
             </div>
             <div className="image-cont">
               <img className="img-job"  src={jobSearch}/>
-              <img className="img-job" id="img-gotajob" src={gotAJob}/>
+              <img className="img-job" id="img-gotajob" src={gotAjob}/>
             </div>
           </Grid>
       </Grid>    
