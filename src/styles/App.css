@@ -14,9 +14,8 @@ body{
    
 }
 
-
 /* navbar */
-#navbar{
+#navbar {
     width: 100vw;
     height: 10vh;
     background-color: rgb(133, 2, 255);
