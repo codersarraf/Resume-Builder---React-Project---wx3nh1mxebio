@@ -30,7 +30,7 @@ body{
     margin-right: 2rem;
     color: #fff;
     font-size:1.3rem;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 /* homepage */
@@ -417,6 +417,16 @@ span{
     }
     .footer-cont{
         gap: 5rem;
+    }
+    #button{
+        width: 7rem;
+    }
+    fieldset,#form{
+        width: 100vw;
+        height: auto;
+    }
+    #abc{
+        margin: 0;
     }
 
   }
