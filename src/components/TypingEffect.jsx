@@ -5,7 +5,7 @@ const TypingEffect = () => {
   return (
     <TypeAnimation
       sequence={[
-        'Welcome To CreateResume.io',
+        'Welcome To ResumeBuilder.io',
         1000,
         'A Responsive Resume Creator..', // Deletes 'One' and types 'Two'
         2000,
@@ -16,7 +16,7 @@ const TypingEffect = () => {
       wrapper="span"
       cursor={true}
       repeat={Infinity}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{display: 'inline-block' }}
     />
   );
 };

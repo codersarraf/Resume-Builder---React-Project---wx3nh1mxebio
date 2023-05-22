@@ -5,7 +5,8 @@ import study from '../images/study.png'
 import jobSearch from '../images/jobSearch.png'  
 import gotAjob from '../images/gotAjob.png' 
 import TypingEffect from '../TypingEffect';
-import ResumeBuilder from './ResumeBuilder';
+import Footer from '../Footer';
+
 function Homepage({setShow}) {
   return (
     <div id="home">
@@ -27,7 +28,8 @@ function Homepage({setShow}) {
               <img className="img-job" id="img-gotajob" src={gotAjob}/>
             </div>
           </Grid>
-      </Grid>    
+      </Grid> 
+      <Footer/>   
     </div>
   )
 }

@@ -38,11 +38,11 @@ body{
 #home{
     background-color: #fff;
     width: 100vw;
-    height: 90vh;  
+    height: 85vh;  
 }
 
 #home-cont{
-    width: 67vw;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     padding-left: 5.8rem;
@@ -51,14 +51,18 @@ body{
     align-items: center;
 }
 
+span.index-module_type__E-SaG {
+    font-size: 2.5rem;
+}
+
 #image-cont{
-    width: 33vw;
+    width: 30vw;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
     margin-bottom: 2rem;
-    
 }
 
 .img-job{
@@ -342,17 +346,71 @@ span{
 }
 
 
+/* footer */
+.footer-cont{
+    width: 100vw;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+
+
+
 @media screen and (max-width: 480px) {
     #homeGrid {
         display: flex;
         flex-direction: column;
     }
-    #home-cont{
+    #home-cont {
         width: 100vw;
+        height: auto;
+        padding: 1rem;
+    }
+    #home-para {
+        font-size: larger;
+    }
+    .image-cont{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    #navbar {
+        height: 3.2rem;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1.5rem;
+       
+    }
+    #icon-study {
+        width: 14rem;
         height: auto;
     }
-    #image-cont{
-        width: 100vw;
-        height: auto;
+    .img-job {
+    width: 45vw;
+    height: auto;
+    margin: 0;
+    }
+    #img-gotajob {
+        margin-left: 0;
+    }
+    .nav-text {
+        margin-right: 0;
+    } 
+    
+    #home-btn {
+        width: 19rem;
+        height: 3.4rem;
+    } 
+    span.index-module_type__E-SaG {
+        font-size: 1.3rem;
     }
   }
