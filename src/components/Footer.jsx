@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="font-size:1.3rem;font-size:1.3rem;font-size:1.3rem;">
       <div className="footer-cont">
         <div className="footer-left">
           <p>@{new Date().getFullYear()} ResumeBuilder.io</p>

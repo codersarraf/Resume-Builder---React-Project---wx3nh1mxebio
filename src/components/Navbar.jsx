@@ -7,7 +7,7 @@ function Navbar() {
       <NavLink id="navbar">
         <Link className='nav-text' to="/">Home</Link>
         <Link className='nav-text' to="/resumebuilder">Resume Builder</Link>
-        <Link className='nav-text' to="/aboutUs">AboutUS</Link>
+        <Link className='nav-text' to="/aboutUs">AboutUs</Link>
      </NavLink>
     <Outlet/>
     </>

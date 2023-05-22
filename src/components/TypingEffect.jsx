@@ -7,7 +7,7 @@ const TypingEffect = () => {
       sequence={[
         'Welcome To ResumeBuilder.io',
         1000,
-        'A Responsive Resume Creator..', // Deletes 'One' and types 'Two'
+        'A Responsive ResumeCreator..', // Deletes 'One' and types 'Two'
         2000,
         // () => {
         //   console.log('Sequence completed'); // Place optional callbacks anywhere in the array

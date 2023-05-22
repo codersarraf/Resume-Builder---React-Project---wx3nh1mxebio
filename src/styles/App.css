@@ -30,7 +30,7 @@ body{
     margin-right: 2rem;
     color: #fff;
     font-size:1.3rem;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 /* homepage */
@@ -402,8 +402,10 @@ span{
     #img-gotajob {
         margin-left: 0;
     }
+        
     .nav-text {
         margin-right: 0;
+        font-size:1rem;
     } 
     
     #home-btn {
@@ -413,4 +415,8 @@ span{
     span.index-module_type__E-SaG {
         font-size: 1.3rem;
     }
+    .footer-cont{
+        gap: 5rem;
+    }
+
   }
