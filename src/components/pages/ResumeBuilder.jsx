@@ -11,7 +11,7 @@ const ResumeBuilder = () => {
     fullname :"",
     email:"",
     phonenumber:"",
-    addimage: "",
+    addimage: "src/upload.png",
     website:"",
     headline:"",
     summary:"",

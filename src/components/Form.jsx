@@ -27,7 +27,7 @@ function Form(props) {
                         <Grid item lg={12} md={12} sm={12} xs={12} >
                               <h1>Basics</h1>
                         </Grid>
-                        <Grid item lg={1} md={2}>
+                        <Grid item lg={1} md={2} >
                             <img id="img" src={props.formdata.addimage}  />
                         </Grid>
                         <Grid item lg={10} md={12} sm={12} xs={12}  id="abc">

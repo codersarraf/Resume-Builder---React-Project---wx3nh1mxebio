@@ -129,12 +129,11 @@ display: flex;
     margin-top: 2rem;
     text-decoration-line: underline;
 }
-#img{
-    width: 8rem;
-    height: 8rem;
+#img {
+    width: 10rem;
+    height: 10rem;
     margin-right: 0.5rem;
-    border-radius: 50%;
-    
+    /* border-radius: 50%; */
 }
 
 /* .containerName{
@@ -163,6 +162,7 @@ display: flex;
     width: 82rem;
     
 }
+
 span{
     margin: 0.02rem;
 }
@@ -428,6 +428,12 @@ span{
     }
     #abc{
         margin: 0;
+    }
+    #img {
+        width: 10rem;
+        height: auto;
+        margin-right: 0.5rem;
+        /* border-radius: 50%; */
     }
 
   }
