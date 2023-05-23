@@ -11,9 +11,9 @@ const App = () => {
   const [show, setShow] = useState(false);
   
   return (
-    <div id="main">
-      <Routing />
-      {show ? <ResumeBuilder/> : <Homepage setShow={setShow}/>}
+    <div id="main" >
+      <Routing setShow={setShow} />
+      {show ? <ResumeBuilder/> :""}
       
     </div> 
     

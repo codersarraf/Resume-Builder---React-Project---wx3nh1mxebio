@@ -6,12 +6,12 @@ import Navbar from './Navbar';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 
-function Routing() {
+function Routing({setShow}) {
   return (
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path="/home" element={<Homepage />}/>
+        <Route path="/" element={<Homepage setShow={setShow}/>}/>
         <Route path="/resumebuilder" element={<ResumeBuilder/>}/>
         <Route path="/aboutUs" element={<About/>}/>
       </Routes>

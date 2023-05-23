@@ -27,7 +27,7 @@ body{
 }
 
 .nav-text{
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     color: #fff;
     font-size:1.3rem;
     /* text-decoration: none; */
@@ -140,10 +140,11 @@ display: flex;
     display: flex;
 } */
 
-#abc{
+#abc {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
 }
 
 #logoHeading{
@@ -345,6 +346,14 @@ span{
     font-size:x-small;;
 }
 
+/* about us */
+
+#about {
+    padding-left: 3rem;
+    padding-top: 2rem;
+    width: 100vw;
+    height: 90vh;
+}
 
 /* footer */
 .footer-cont{

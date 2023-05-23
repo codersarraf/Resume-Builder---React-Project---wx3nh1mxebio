@@ -6,6 +6,7 @@ import jobSearch from '../images/jobSearch.png'
 import gotAjob from '../images/gotAjob.png' 
 import TypingEffect from '../TypingEffect';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 function Homepage({setShow}) {
   return (
@@ -21,7 +22,7 @@ function Homepage({setShow}) {
 
                 </div>
               </section> */}
-              <Button onClick={()=>setShow(true)}id="home-btn">Create Your Resume</Button>
+              <Button id="home-btn"><Link className='nav-text' to="/resumebuilder">Create Your Resume</Link></Button>
             </div>
             <div className="image-cont">
               <img className="img-job"  src={jobSearch}/>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer'
 
 function About() {
   return (
@@ -22,7 +23,8 @@ function About() {
             <p>At ResumeGenius, we are committed to providing exceptional customer support. Our team is always ready to assist you with any questions or concerns you may have along the way. We believe in your potential, and we're here to help you succeed in your career.</p>
             
             <p>Start creating your professional resume today with ResumeGenius and take the first step towards achieving your career goals.</p>
-</div>
+        </div>
+          <Footer/>
     </div>
   )
 }
