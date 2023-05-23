@@ -409,7 +409,7 @@ span{
     }
     .image-cont{
         width: 100vw;
-        height: 32vh;
+        height: 30vh;
         display: flex;
         justify-content: center;
         flex-direction: row;
