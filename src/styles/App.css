@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     align-content: center;
     font-family:monospace;
     /* background-color: #dfdaed → #faaca8; */
@@ -405,7 +409,7 @@ span{
     }
     .image-cont{
         width: 100vw;
-        height: auto;
+        height: 38vh;
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -413,7 +417,7 @@ span{
     }
     #navbar {
         height: 3.2rem;
-        gap: 1rem;
+        gap: 2.8rem;
         justify-content: center;
         align-items: center;
         padding-bottom: 1.5rem;
@@ -424,7 +428,7 @@ span{
         height: auto;
     }
     .img-job {
-    width: 45vw;
+    width: 51vw;
     height: auto;
     margin: 0;
     }
@@ -446,15 +450,33 @@ span{
     }
     .footer-cont{
         gap: 5rem;
+        margin-top: 1rem;
     }
     #button{
         width: 7rem;
     }
-    fieldset,#form{
-        width: 95vw;
+    fieldset,input.MuiOutlinedInput-input{
+        width: 90vw;
         height: auto;
         margin: 0;
     }
+    #form{
+        width: 100vw;
+        height: auto;
+        margin: 0;
+    }
+    #heading{
+        margin-bottom: 2rem;
+    }
+    .previewContainer{
+        width: 92vw;
+        margin-bottom: 2rem;
+    }
+    body{
+        overflow-x: hidden;
+        height: auto;
+    }
+
     #abc{
         margin: 0;
     }
