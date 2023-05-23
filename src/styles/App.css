@@ -409,7 +409,7 @@ span{
     }
     .image-cont{
         width: 100vw;
-        height: 38vh;
+        height: 32vh;
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -417,7 +417,7 @@ span{
     }
     #navbar {
         height: 3.2rem;
-        gap: 2.8rem;
+        gap: 1.7rem;
         justify-content: center;
         align-items: center;
         padding-bottom: 1.5rem;
