@@ -486,5 +486,7 @@ span{
         margin-right: 0.5rem;
         /* border-radius: 50%; */
     }
-
+    aboutUs{
+        padding: 1rem;
+    }
   }
