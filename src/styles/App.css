@@ -1,6 +1,7 @@
 *{
+    text-align: center;
     padding: 0;
-    margin: 0;
+    margin-bottom: 0.4rem;
     box-sizing: border-box;
 }
 
@@ -17,6 +18,7 @@ body{
     /* background-color: #dfdaed → #faaca8; */
    
 }
+
 
 /* navbar */
 #navbar {
@@ -130,7 +132,12 @@ span.index-module_type__E-SaG {
 
 
 #form-component{
-display: flex;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+#form{
+    width: 80vw;
 }
 
 #heading{
@@ -152,8 +159,26 @@ display: flex;
 #abc {
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
-    margin-top: 2rem;
+    align-items: center;
+}
+
+
+.btn-label{
+    border: 0.2rem solid blue;
+    border-radius: 2rem;
+    width: 8rem;
+    background-color: blue;
+    color: rgb(232, 232, 237);
+    text-align: center;
+    font-size:medium;
+    font-family: cursive;
+    height: 2rem;
+
+
+}
+
+.profile-img{
+    display: none;
 }
 
 #logoHeading{
@@ -167,21 +192,36 @@ display: flex;
     height: 2.5rem;
     border-radius: 0.2rem;
     margin-top: 0.2rem;
-}
-#add-image, .inputs {
-    width: 82rem;
     
 }
+/* #add-image, .inputs {
+    width: 82rem;
+    
+} */
 
 span{
     margin: 0.02rem;
 }
 
-.input{
+/* .input{
     width: 92rem;
 }
 .small-input{
     width: 43rem;
+} */
+
+.input, .inputs , .small-input{
+    width: 35%;
+    height: 3.5rem;
+    border: 0.1rem rgb(124, 124, 174) solid;
+    border-radius: 7rem;
+    font-size: medium;
+    font-family: cursive;
+}
+
+.input:hover, .inputs:hover , .small-input:hover{
+   scale: 1.05;
+   
 }
 
 #btn{
@@ -213,9 +253,10 @@ span{
 
 #form1,.form2,#form3,#form4{
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 
@@ -461,10 +502,12 @@ span{
         margin: 0;
     }
     #form{
-        width: 100vw;
+        
+        width: 80vw;
         height: auto;
         margin: 0;
     }
+
     #heading{
         margin-bottom: 2rem;
     }
